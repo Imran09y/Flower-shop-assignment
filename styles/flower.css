@@ -1,0 +1,99 @@
+/* banner-styles section */
+body {
+
+    font-family: Lato;
+}
+
+.banner-heading {
+    color: #272727;
+    font-family: Lato;
+    font-size: 80px;
+    margin-bottom: 30px;
+}
+
+.banner-paragraph {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+
+}
+
+.btn-primary {
+    border-radius: 8px;
+    background: #E55473;
+    border: none;
+    color: #FFF;
+    padding: 20px 30px;
+}
+
+.header {
+
+    background-color: #cf49661a;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.banner .profile-pic {
+    width: 500px;
+    padding: 50px 150px;
+}
+
+.banner-content {
+    padding: 180px 200px;
+}
+
+/* Flower-features styles section */
+.features {
+    text-align: center;
+}
+
+.features-title {
+    color: #272727;
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+.features-paragraph {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    margin-bottom: 50px;
+
+}
+
+.feature-image-1{
+    background-repeat: no-repeat;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+
+}
+.feature-image-2{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.feature-image-3{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+
+
+.images-section {
+    display: flex;
+    justify-content:center;
+    gap:30px;
+}
+
+.figcaption{
+     display: flex;
+     text-align: center;
+     margin-right: 50px;
+
+}
+     
