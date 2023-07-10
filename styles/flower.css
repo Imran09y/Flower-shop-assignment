@@ -116,9 +116,48 @@ body {
     text-align: center;
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
+
+}
+
+.image-icon {
+    padding: 30px 40px;
+}
+
+/* Offer-section-styles */
+
+.Offer-section {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    height: 620px;
+}
+
+.offer-content {
+
+    padding: 100px 400px;
+
+}
+
+.offer-images {
+    padding-right: 400px;
+    padding-top: 100px;
+}
+
+.offer-title {
+
+    color: #272727;
+    font-size: 40px;
     
 }
 
-.image-icon{
-    padding: 30px 40px;
+.offer-paragraph {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+
+}
+
+.offer-content,#btn{
+    
+    text-align: center;
 }
