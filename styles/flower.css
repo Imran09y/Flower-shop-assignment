@@ -50,6 +50,11 @@ body {
 }
 
 /* Flower-features styles section */
+.Flower-features {
+    margin: 100px 400px;
+
+}
+
 .features {
     text-align: center;
 }
@@ -67,18 +72,19 @@ body {
 
 }
 
-.feature-image-1{
+.feature-image-1 {
     background-repeat: no-repeat;
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
 
 }
-.feature-image-2{
+
+.feature-image-2 {
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
 }
 
-.feature-image-3{
+.feature-image-3 {
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
 }
@@ -86,14 +92,33 @@ body {
 
 .images-section {
     display: flex;
-    justify-content:center;
-    gap:30px;
-}
-
-.figcaption{
-     display: flex;
-     text-align: center;
-     margin-right: 50px;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 30px;
 
 }
-     
+
+.figcaption {
+    display: flex;
+    text-align: center;
+    margin: auto;
+
+}
+
+
+
+/* features icon section */
+
+.Features-icon {
+    margin: 100px 400px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    
+}
+
+.image-icon{
+    padding: 30px 40px;
+}
